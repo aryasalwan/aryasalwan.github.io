@@ -14,6 +14,18 @@ body {
   padding-right: 35%;
   font-family: 'Times New Roman';
 }
+.about-me{
+  font-family: monospace;
+}
+#supervisor-feedback h1,h2,h6{
+  font-style: italic;
+  font-family: 'Times New Roman';
+}
+.supervisor-name{
+  color: yellow;
+  font-family: 'Monoscope';
+  padding-left: 70%;
+}
 .navbar-link{
   font-family: 'Monoscope'; 
   font-size: 200px;
