@@ -23,7 +23,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+#Project3{
+  padding: 20px;
+}
 .icon-mobile3:before {
   content: "\e000";
 }
