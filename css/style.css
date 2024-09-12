@@ -16,6 +16,8 @@ body {
 }
 .about-me{
   font-family: monospace;
+  font-size: 20px; 
+  color: white;
 }
 #supervisor-feedback h1,h2,h6{
   font-style: italic;
