@@ -126,11 +126,11 @@ a {
   border-radius: 0px;
   margin-bottom: 0px;
   background: none;
-  position: absolute;
-  top: 20px;
+  position: fixed;
+  top: 0px;
   width: 100%;
   z-index: 200;
-  background: #fff; }
+  background: black; }
   .site-navbar .navbar-brand {
     display: inline-block;
     border: 2px solid #fff;
@@ -141,7 +141,7 @@ a {
     .site-navbar .navbar-brand:hover {
       color: #fff; }
   .site-navbar.bg-light {
-    background: transparent !important; }
+    background: black !important; }
     @media (max-width: 991.98px) {
       .site-navbar.bg-light {
         background: #fff !important;
