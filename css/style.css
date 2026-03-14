@@ -8,6 +8,26 @@ body {
 #section-workhistory{
   padding: 15px;
 }
+.carousel-item {
+  height: 800px; /* Adjust this to your preferred height */
+  background-color: #000; /* Optional: adds a black background for letterboxing */
+}
+.carousel-caption h5 {
+  background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+  color: #fff;
+  display: inline-block; /* This ensures the background only covers the text width */
+  padding: 10px 20px;
+  /* border-radius: 5px;   /* Optional: rounds the corners for a softer look */
+  margin-bottom: 10px;  /* Adds space between the title and the paragraph */
+}
+
+/* 2. Tell the image how to fit into that fixed height */
+.carousel-item img, 
+.carousel-item video {
+  height: 100%;
+  width: 100%;
+  object-fit: contain; /* This "zooms out" to show the full image */
+}
 .work_period {
   font-size: 18px;
   color: white;
