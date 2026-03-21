@@ -12,6 +12,15 @@ body {
   height: 800px; /* Adjust this to your preferred height */
   background-color: #000; /* Optional: adds a black background for letterboxing */
 }
+/* Add a semi-transparent black background behind the arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.7); /* Change this hex or rgba value to whatever color you want */
+    padding: 20px; /* This makes the background larger than the arrow */
+    border-radius: 50%; /* This makes the background a circle. Remove this line for a square! */
+    background-size: 70% 70%; /* Keeps the actual arrow inside from getting too big */
+    height:20px;
+}
 .carousel-caption h5 {
   background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
   color: #fff;
